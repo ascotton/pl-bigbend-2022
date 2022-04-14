@@ -1,0 +1,10 @@
+#editor .position-relative[style*=border-radius][style*=padding-bottom],
+#editor .position-relative[style*=border-radius] [style*=padding-bottom] {
+    padding-bottom: 0 !important;
+}
+
+#editor [style*="height: 0;"][style*="padding-bottom"],
+#editor [style*="height:0;"][style*="padding-bottom"] {
+    height: auto !important;
+    padding-bottom: 0 !important;
+}
